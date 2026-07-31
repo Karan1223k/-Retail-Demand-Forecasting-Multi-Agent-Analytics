@@ -55,7 +55,7 @@ sales_spark = spark.read \
     .option("driver", "com.mysql.cj.jdbc.Driver") \
     .option("dbtable", "clean_sales") \
     .option("user", "root") \
-    .option("password", "Karan0207") \
+    .option("password", "*****") \
     .load()
 
 # Join them — direct equivalent of your SQL JOIN ... ON clean_sales.store_id = stores.store_id
