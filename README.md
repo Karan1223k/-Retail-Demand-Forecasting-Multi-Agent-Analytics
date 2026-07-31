@@ -44,10 +44,7 @@ What *did* hold up under scrutiny: a real, statistically confirmed ~40% sales li
 
 <img width="759" height="486" alt="Screenshot 2026-07-31 at 11 50 45 AM" src="https://github.com/user-attachments/assets/e629b00c-65aa-4ecb-ac63-ff3e53e56236" />
 
-*Distribution of daily sales — right-skewed, with a long tail from December and promo-driven spikes.*<img width="1062" height="390" alt="Screenshot 2026-07-31 at 11 53 52 AM" src="https://github.com/user-attachments/assets/48c8dbb8-14d2-4ecb-821d-5fb63ffb952f" />
-<img width="1106" height="388" alt="Screenshot 2026-07-31 at 11 53 33 AM" src="https://github.com/user-attachments/assets/7fddaa25-2c06-4a4e-ab35-3d56e74c3922" />
-<img width="1063" height="382" alt="Screenshot 2026-07-31 at 11 53 10 AM" src="https://github.com/user-attachments/assets/3b4fb5de-8085-4d60-b64c-26bcea86f3ad" />
-
+*Distribution of daily sales — right-skewed, with a long tail from December and promo-driven spikes.*
 
 ## The baseline that wouldn't lose
 
