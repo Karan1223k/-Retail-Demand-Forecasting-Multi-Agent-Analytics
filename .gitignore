@@ -1,0 +1,26 @@
+# Environment & secrets
+code/.env
+
+# Virtual environment
+code/retail_env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# macOS system files
+.DS_Store
+
+# Output/log files from debugging
+code/output.txt
+code/output2.txt
+code/prophet_output.txt
+
+# Jupyter checkpoints (if any exist)
+.ipynb_checkpoints/
+
+# Raw dataset (publicly available on Kaggle, not included in repo)
+rossmann-store-sales/
+
+# MySQL JDBC driver (download separately, see README)
+code/jars/
