@@ -1,8 +1,10 @@
 # Environment & secrets
+.env
 code/.env
+llm/.env
 
-# Virtual environment
-code/retail_env/
+# Virtual environments
+retail_forecasting/
 
 # Python cache
 __pycache__/
@@ -24,3 +26,9 @@ rossmann-store-sales/
 
 # MySQL JDBC driver (download separately, see README)
 code/jars/
+
+# Local databases (if any get created)
+*.db
+
+# Exported model_input snapshot (regenerate with code/05_export_to_csv.py)
+code/rossmann_model_input.csv

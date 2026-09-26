@@ -1,0 +1,10 @@
+google-generativeai
+langgraph
+langchain-core
+chromadb
+sentence-transformers
+pandas
+streamlit
+python-dotenv
+mysql-connector-python
+sqlalchemy

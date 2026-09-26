@@ -1,0 +1,5 @@
+[server]
+# Streamlit's file watcher walks every imported module, including the
+# lazy-loaded vision models in transformers, and floods the log with
+# torchvision import errors. The app doesn't use them, so turn it off.
+fileWatcherType = "none"

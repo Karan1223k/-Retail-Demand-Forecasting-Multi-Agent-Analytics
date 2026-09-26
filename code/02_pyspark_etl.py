@@ -1,5 +1,11 @@
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import col, avg, count
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+DB_USER = os.getenv("DB_USER")
+DB_PASSWORD = os.getenv("DB_PASSWORD")
 
 # creating a spark session
 spark = SparkSession.builder \
@@ -13,8 +19,8 @@ df_spark = spark.read \
     .option("url", "jdbc:mysql://localhost:3306/retail_forecasting") \
     .option("driver", "com.mysql.cj.jdbc.Driver") \
     .option("dbtable", "model_input") \
-    .option("user", "root") \
-    .option("password", "Karan0207") \
+    .option("user", DB_USER) \
+    .option("password", DB_PASSWORD) \
     .load()
 
 
@@ -45,8 +51,8 @@ stores_spark = spark.read \
     .option("url", JDBC_URL) \
     .option("driver", "com.mysql.cj.jdbc.Driver") \
     .option("dbtable", "stores") \
-    .option("user", "root") \
-    .option("password", "Karan0207") \
+    .option("user", DB_USER) \
+    .option("password", DB_PASSWORD) \
     .load()
 
 sales_spark = spark.read \
@@ -54,8 +60,8 @@ sales_spark = spark.read \
     .option("url", JDBC_URL) \
     .option("driver", "com.mysql.cj.jdbc.Driver") \
     .option("dbtable", "clean_sales") \
-    .option("user", "root") \
-    .option("password", "*****") \
+    .option("user", DB_USER) \
+    .option("password", DB_PASSWORD) \
     .load()
 
 # Join them — direct equivalent of your SQL JOIN ... ON clean_sales.store_id = stores.store_id
