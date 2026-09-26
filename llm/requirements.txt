@@ -1,8 +1,9 @@
-google-generativeai
+google-genai
 langgraph
 langchain-core
 chromadb
 sentence-transformers
+prophet
 pandas
 streamlit
 python-dotenv
