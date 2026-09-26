@@ -122,17 +122,20 @@ Critic agent ───── checks every number and claim against the raw data
 ### Example: a historical question (SQL path)
 
 <!-- SCREENSHOT 2: ask "What was the average sales amount for store 1 in January 2013?" and expand "See agent steps" -->
-> 📸 **[Screenshot: SQL question with agent steps expanded]**
+> 📸 **[Screenshot: SQL question with agent steps expanded]**<img width="1210" height="655" alt="Screenshot 2026-09-26 at 5 38 26 PM" src="https://github.com/user-attachments/assets/d0d01fe1-7b05-4bfb-9972-ab6e4c317dd3" />
+
 
 ### Example: a question about the project itself (knowledge-base path)
 
-<!-- SCREENSHOT 3: ask "What bug was found in the rolling average feature?" -->
-> 📸 **[Screenshot: knowledge-base question]**
+<!-- SCREENSHOT 3: ask "![Uploading Screenshot 2026-09-26 at 5.39.19 PM.png…]()" -->
+> 📸 **[Screenshot: knowledge-base question]**<img width="1290" height="702" alt="Screenshot 2026-09-26 at 5 39 38 PM" src="https://github.com/user-attachments/assets/d91d4a93-8802-4f45-8632-d263320a97b9" />
+
 
 ### Example: a forecast
 
-<!-- SCREENSHOT 4: ask "What will store 1's sales be on 2015-08-20?" and expand "See agent steps" -->
-> 📸 **[Screenshot: forecast question with agent steps expanded]**
+<!-- SCREENSHOT 4: ask "![Uploading Screenshot 2026-09-26 at 5.40.18 PM.png…]()" and expand "See agent steps" -->
+> 📸 **[Screenshot: forecast question with agent steps expanded]**<img width="673" height="455" alt="Screenshot 2026-09-26 at 5 40 47 PM" src="https://github.com/user-attachments/assets/251bea3f-f086-424e-8121-6fca06361a63" />
+
 
 ### Being honest about what it *can't* do
 
